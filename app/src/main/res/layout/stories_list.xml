@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+    <android.support.design.widget.AppBarLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar android:id="@+id/toolbar"
+            android:layout_width="match_parent" android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary" app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:navigationIcon="@drawable/reversehandshootmedium" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_height="fill_parent"
+        tools:context=".YoutubeVideosActivity"
+        android:id="@+id/layoutHolder"
+        android:weightSum="100"
+        android:background="@drawable/sunray">
+
+
+        <!--<LinearLayout android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_new"
+            android:layout_weight="75">
+
+        </LinearLayout>-->
+
+        <!--<LinearLayout android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/orange"
+            android:layout_weight="75">
+
+        </LinearLayout>-->
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/main"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="75"
+            android:padding="5dp">
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Story Of The Day"
+                    android:id="@+id/textView6"
+                    android:textSize="25dp"
+                    android:textStyle="bold|italic"
+                    android:textColor="@color/newButtonColor"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <ImageView
+                    android:id="@+id/first_video_thumbnail"
+                    android:layout_width="128dp"
+                    android:layout_height="128dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/video"
+                    android:layout_below="@id/textView6"
+                    android:layout_marginTop="5dp"
+                    />
+
+                <TextView android:id="@+id/first_video_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/first_video_thumbnail"
+                    android:layout_below="@id/textView6"
+                    android:layout_marginTop="5dp"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView android:id="@+id/first_video_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/first_video_thumbnail"
+                    android:layout_below="@+id/first_video_title"
+                    android:textSize="15sp"
+                    />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:id="@+id/divider"
+                android:background="@android:color/darker_gray"
+                android:layout_below="@+id/first_video_thumbnail"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Other Stories"
+                android:id="@+id/otherStories"
+                android:textSize="20dp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <ListView
+                android:id="@+id/suttaKadhais"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:divider="@color/dividerColor"
+                android:dividerHeight="3dp"/>
+
+        </LinearLayout>
+
+        <!--<include layout="@layout/actions_footer"/>-->
+
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

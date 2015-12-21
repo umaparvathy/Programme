@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:background="@drawable/sunray"
+    android:padding="5dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="125dp"
+        android:id="@+id/topImage"
+        android:src="@drawable/pic"
+        android:background="@null"
+        android:paddingBottom="0dp"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/action_participate"
+        android:src="@drawable/participate_contest"
+        android:gravity="left"
+        android:background="@null"
+        android:paddingTop="0dp"
+        android:layout_below="@+id/topImage"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/action_stars"
+        android:src="@drawable/stars_day"
+        android:gravity="left"
+        android:background="@null"
+        android:layout_below="@+id/action_participate"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/action_stories"
+        android:src="@drawable/listen_stories"
+        android:gravity="left"
+        android:background="@null"
+        android:layout_below="@+id/action_stars"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/action_facebook"
+        android:src="@drawable/follow_facebook"
+        android:gravity="left"
+        android:background="@null"
+        android:layout_below="@+id/action_stories"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/action_email"
+        android:src="@drawable/email_feedback"
+        android:gravity="left"
+        android:background="@null"
+        android:layout_below="@+id/action_facebook"
+        android:layout_centerHorizontal="true" />
+
+    <!--<ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/action_about"
+        android:src="@drawable/about_show"
+        android:gravity="left"
+        android:background="@null"
+        android:layout_below="@+id/action_email"
+        android:layout_centerHorizontal="true" />-->
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView6"
+        android:src="@drawable/logo"
+        android:layout_below="@+id/action_email"
+        android:layout_toRightOf="@+id/action_participate"
+        android:layout_toEndOf="@+id/action_participate" />
+
+    <android.support.design.widget.FloatingActionButton android:id="@+id/action_about"
+        android:layout_width="50dp" android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:paddingRight="5dp"
+        android:src="@android:drawable/ic_dialog_info"
+        android:layout_alignBottom="@+id/topImage"
+        android:layout_alignLeft="@+id/imageView6"
+        android:layout_alignStart="@+id/imageView6" />
+
+</RelativeLayout>

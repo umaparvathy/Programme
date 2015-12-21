@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Mirchi Sutta Kadhai</string>
+
+    <string name="screen_name">My Programme</string>
+    <string name="about_the_show">Every life is a story that is being lived. If all the world is a stage then we are mere story tellers. Rj Senthil is all ready to narrate every story in every genre possible. Stories from all around the world are being told. Want your dose of bedtime stories?
+Then tune into Sutta Kadhai with Mirchi Senthil.
+Sutta Kadhai - Monday to Saturday 9:00 PM to 11:00 PM only on Radio Mirchi 98.3 FM... Idhu Sema Hottu Machi!</string>
+
+    <string name="action_share">Share With Friends</string>
+    <string name="action_search">Search A Story</string>
+    <string name="action_participate">Participate In The Contest</string>
+    <string name="action_stories">Listen To The Stories</string>
+    <string name="action_favorites">Favorite Stories</string>
+    <string name="action_facebook">Like On Facebook</string>
+    <string name="action_feedback">Send Feedback</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_help">Report Issue</string>
+    <string name="action_about">About The Programme</string>
+    <string name="action_about_app">About The App</string>
+    <string name="selectalbum">Select Album</string>
+    <string name="today_question">Today\'s Contest Question</string>
+    <string name="whatsapp_number">9176983983</string>
+    <string name="email_id">senthil@radiomirchi.com</string>
+    <string name="facebook_page">https://www.facebook.com/SUTTAKADHAI1000</string>
+    <string name="graph_url">https://graph.facebook.com/</string>
+    <string name="page_name">SUTTAKADHAI1000</string>
+    <string name="album_name">Timeline Photos</string>
+    <string name="seperator">/</string>
+    <string name="albums">albums</string>
+    <string name="photos">photos</string>
+    <string name="question_mark">\?</string>
+    <string name="access_token">access_token=914746025241819%7C517cd16836e720a50e6335a08d6607d3</string>
+    <string name="photo_fields">&amp;fields=picture,name,source,created_time,backdated_time</string>
+    <string name="contest_question_tag">\#suttakadhaicontestquestion</string>
+    <string name="contest_stars_tag">\#suttakadhaiconteststars</string>
+    <string name="facebook_url_albums">https://graph.facebook.com/microsoft/albums?access_token=914746025241819%7C517cd16836e720a50e6335a08d6607d3</string>
+    <string name="facebook_url_photos">https://graph.facebook.com/917099508360583/photos?access_token=914746025241819%7C517cd16836e720a50e6335a08d6607d3&amp;fields=picture,name,source,created_time,backdated_time</string>
+    <string name="facebook_url_photos1">https://graph.facebook.com/10151852126018721/photos?access_token=914746025241819%7C517cd16836e720a50e6335a08d6607d3&amp;fields=picture,name,source,created_time,backdated_time</string>
+    <string name="app_id">141532492879279</string>
+    <string name="query">SELECT uid, name, movies FROM user WHERE uid in (SELECT uid2 from friend where uid1 = me()) and movies != \'\' order by name desc</string>
+</resources>

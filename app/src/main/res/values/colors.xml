@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="titleBarColor">#171a19</color>
+    <color name="bgColor">#FF8F00</color>
+    <color name="bgColor1">#FFD600</color>
+    <color name="myColor">#239b7d</color>
+    <color name="orange">#FF6F00</color>
+    <color name="black">#000000</color>
+    <color name="bodyColor">#FF8F00</color>
+    <color name="titleColor">#B71C1C</color>
+    <color name="footerColor">#FFEB3B</color>
+    <color name="buttonColor">#F44336</color>
+    <color name="newColor">#FFFF00</color>
+    <color name="newButtonColor">#e61708</color>
+    <color name="grey">#585655</color>
+    <color name="newTitleColor">#FF8F00</color>
+    <color name="latestTitleColor">#22a4a6</color>
+    <color name="dividerColor">#22a4a6</color>
+</resources>

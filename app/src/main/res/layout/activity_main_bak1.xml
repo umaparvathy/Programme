@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:orientation="horizontal"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/layoutHolder"
+    android:background="@color/orange">
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout android:layout_width="fill_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:background="@color/orange"
+            android:weightSum="100">
+
+            <LinearLayout android:orientation="vertical"
+                android:layout_weight="25"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:id="@+id/layout1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:gravity="center">
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CONTEST"
+                    android:id="@+id/contest"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical"
+                android:layout_weight="25"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:id="@+id/layout2"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:gravity="center">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="STORIES"
+                    android:id="@+id/stories"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical"
+                android:layout_weight="25"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:id="@+id/layout3"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:gravity="center">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="LIKE ON FB"
+                    android:id="@+id/facebook"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical"
+                android:layout_weight="25"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:id="@+id/layout4"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:gravity="center">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SEND UR FEEDBACK"
+                    android:id="@+id/email"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

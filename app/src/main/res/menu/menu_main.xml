@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/action_share" android:title="@string/action_share"
+        android:orderInCategory="100" app:showAsAction="ifRoom"
+        android:icon="@drawable/share" />
+    <item android:id="@+id/action_search" android:title="@string/action_search"
+        android:orderInCategory="100" app:showAsAction="ifRoom"
+        android:icon="@drawable/search" />
+    <item android:id="@+id/action_participate" android:title="@string/action_participate"
+        android:orderInCategory="100" app:showAsAction="never"
+        android:icon="@drawable/help" />
+    <item android:id="@+id/action_stories" android:title="@string/action_stories"
+        android:orderInCategory="100" app:showAsAction="never"
+        android:icon="@drawable/help" />
+    <item android:id="@+id/action_favorites" android:title="@string/action_favorites"
+        android:orderInCategory="100" app:showAsAction="never"
+        android:icon="@drawable/help" />
+    <item android:id="@+id/action_facebook" android:title="@string/action_facebook"
+        android:orderInCategory="100" app:showAsAction="never"
+        android:icon="@drawable/help" />
+    <item android:id="@+id/action_feedback" android:title="@string/action_feedback"
+        android:orderInCategory="100" app:showAsAction="never"
+        android:icon="@drawable/about"/>
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never"
+        android:icon="@drawable/help" />
+    <item android:id="@+id/action_help" android:title="@string/action_help"
+        android:orderInCategory="100" app:showAsAction="never"
+        android:icon="@drawable/help" />
+    <item android:id="@+id/action_about" android:title="@string/action_about"
+        android:orderInCategory="100" app:showAsAction="never"
+        android:icon="@drawable/help" />
+    <item android:id="@+id/action_about_app" android:title="@string/action_about_app"
+        android:orderInCategory="100" app:showAsAction="never"
+        android:icon="@drawable/about"/>
+</menu>

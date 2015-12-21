@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="75dp"
+    android:layout_weight="25"
+    android:weightSum="100"
+    android:background="@color/footerColor"
+    android:layout_alignParentBottom="true">
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_weight="25"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/layout1"
+        android:scaleType="fitXY"
+        android:weightSum="100">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="70"
+            android:id="@+id/contest"
+            android:src="@drawable/contest_modified"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="70"
+            android:text="Participate"
+            android:id="@+id/participate"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_weight="25"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/layout2"
+        android:scaleType="fitXY"
+        android:weightSum="100">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="70"
+            android:id="@+id/stories"
+            android:src="@drawable/videos_modified"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="30"
+            android:text="Listen"
+            android:id="@+id/listen"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_weight="25"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/layout3" android:scaleType="fitXY"
+        android:weightSum="100">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="70"
+            android:id="@+id/facebook"
+            android:src="@drawable/facebook_modified"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="30"
+            android:text="Like"
+            android:id="@+id/like"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_weight="25"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/layout4"
+        android:scaleType="fitXY"
+        android:weightSum="100">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="70"
+            android:id="@+id/email"
+            android:src="@drawable/email_modified"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="30"
+            android:text="Email"
+            android:id="@+id/feedback"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

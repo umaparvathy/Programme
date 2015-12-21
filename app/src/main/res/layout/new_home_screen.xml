@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:background="@drawable/sunray">
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:id="@+id/imageView6"
+        android:src="@drawable/new_logo"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:paddingTop="5dp"/>
+
+    <ImageView
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:id="@+id/imageView7"
+        android:src="@drawable/home_image"
+        android:layout_below="@+id/imageView6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-35dp"/>
+
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Participate In Contest"
+        android:textStyle="italic"
+        android:drawableLeft="@drawable/red_gun"
+        android:gravity="left|center_vertical"
+        android:background="@drawable/rounded_corner1"
+        android:layout_below="@+id/imageView7"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/action_participate"
+        android:layout_marginTop="5dp" />
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Listen To Stories"
+        android:textStyle="italic"
+        android:drawableLeft="@drawable/yellow_gun"
+        android:gravity="left|center_vertical"
+        android:background="@drawable/rounded_corner2"
+        android:layout_below="@+id/action_participate"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/action_stories"
+        android:layout_marginTop="5dp" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Like On Facebook"
+        android:textStyle="italic"
+        android:drawableLeft="@drawable/blue_gun"
+        android:gravity="left|center_vertical"
+        android:background="@drawable/rounded_corner3"
+        android:layout_below="@+id/action_stories"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/action_facebook"
+        android:layout_marginTop="5dp" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Email your Feedback"
+        android:textStyle="italic"
+        android:drawableLeft="@drawable/green_gun"
+        android:gravity="left|center_vertical"
+        android:background="@drawable/rounded_corner4"
+        android:layout_below="@+id/action_facebook"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/action_email"
+        android:layout_marginTop="5dp" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="About The Show"
+        android:textStyle="italic"
+        android:drawableLeft="@drawable/purple_gun"
+        android:gravity="left|center_vertical"
+        android:background="@drawable/rounded_corner5"
+        android:layout_below="@+id/action_email"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/action_about"
+        android:layout_marginTop="5dp" />
+</RelativeLayout>
